@@ -1,0 +1,11 @@
+# Advent of Code - Day 12
+
+def main():
+    with open('test12.txt', 'r') as f:
+        lines = f.readlines()
+    
+    # Your solution here
+    pass
+
+if __name__ == "__main__":
+    main()
