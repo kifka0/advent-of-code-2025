@@ -1,6 +1,7 @@
 # Read the input file and store it in a 2D vector (list of lists)
 # This allows access using coordinates: grid[row][col]
 
+# Time Complexity: O(N*M)
 def remove_isolated_symbols(grid):
     """
     Count @ symbols with fewer than 4 @ neighbors and create a new grid

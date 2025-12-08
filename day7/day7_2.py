@@ -1,6 +1,7 @@
 # Advent of Code - Day 7 Part 2
 from collections import defaultdict
 
+# Time Complexity: O(N)
 def main():
     filename = 'text7.txt'
     with open(filename, 'r') as f:

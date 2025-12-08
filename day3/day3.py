@@ -1,5 +1,6 @@
 file_path = '/Users/kevernier/Documents/AdvenOfCode/day3/test3.txt'
 
+# Time Complexity: O(N^2)
 with open(file_path, 'r') as f:
     docu = f.read().strip().splitlines()
 

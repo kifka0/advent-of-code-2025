@@ -1,5 +1,6 @@
 # Advent of Code - Day 7
 
+# Time Complexity: O(N)
 def main():
     filename = 'text7.txt'
     with open(filename, 'r') as f:

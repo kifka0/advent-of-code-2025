@@ -17,6 +17,7 @@ for item in items:
     premiere.append((int(item.split('-')[0])))
     seconde.append((int(item.split('-')[1])))
 # Function to check if a string has a repeating pattern
+# Time Complexity: O(N)
 def has_repeating_pattern(s):
     length = len(s)
     # Check all possible pattern lengths (divisors of the total length)

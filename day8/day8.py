@@ -1,3 +1,4 @@
+# Advent of Code - Day 8
 import math
 
 # Time Complexity: O(N^2 log N) - Dominated by sorting N^2 distances

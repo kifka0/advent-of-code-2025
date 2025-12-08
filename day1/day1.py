@@ -1,13 +1,8 @@
 file_path = '/Users/kevernier/Documents/AdvenOfCode/day1/textday1.txt'
 
+# Time Complexity: O(N)
 with open(file_path, 'r') as f:
-    # Read the whole file content into a single string
-    #file_content = f.read() 
-    
-    # OR read all lines into a list
     docu = f.readlines()
-
-#print (docu)
 
 results_list =[]
 firstLetters = [word[0] for word in docu]

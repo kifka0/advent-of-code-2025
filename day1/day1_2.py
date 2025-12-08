@@ -1,3 +1,4 @@
+# Time Complexity: O(N)
 file_path = '/Users/kevernier/Documents/AdvenOfCode/day1/textday1.txt'
 
 with open(file_path, 'r') as f:

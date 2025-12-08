@@ -1,5 +1,6 @@
 file_path = '/Users/kevernier/Documents/AdvenOfCode/day10_20/test10_1.txt'
 
+# Time Complexity: O(N log N)
 with open(file_path, 'r') as f:
     docu = f.read().strip().splitlines()
 
@@ -8,7 +9,6 @@ print(docu)
 # Create a new list which sorts the list, while keeping the position of the original stored as a tuple
 # This creates a list of (value, original_index) and sorts it
 sorted_with_position = sorted([(int(x), i) for i, x in enumerate(docu)])
-print(sorted_with_position)
 
 jumps = {1: 0, 2: 0, 3: 0}
 current_val = 0

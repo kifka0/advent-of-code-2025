@@ -1,5 +1,6 @@
 # Advent of Code - Day 12 Part 2
 
+# Time Complexity: O(N)
 def main():
     with open('test12.txt', 'r') as f:
         lines = f.readlines()

@@ -1,5 +1,6 @@
 # Advent of Code - Day 5 Part 2
 
+# Time Complexity: O(N)
 def main():
     with open('text5.txt', 'r') as f:
         lines = f.readlines()

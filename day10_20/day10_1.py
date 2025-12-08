@@ -1,5 +1,6 @@
-file_path = '/Users/kevernier/Documents/AdvenOfCode/day10_20/test10_1.txt'
-
+# Advent of Code - Day 10
+file_path = '/Users/kevernier/Documents/AdvenOfCode/day10_20/text10.txt'
+# Time Complexity: O(N log N)
 with open(file_path, 'r') as f:
     docu = f.read().strip().splitlines()
 

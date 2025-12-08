@@ -1,5 +1,6 @@
 # Advent of Code - Day 6 Part 2
 
+# Time Complexity: O(N)
 def main():
     # Read the input file
     filename = 'text6.txt'
